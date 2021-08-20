@@ -54,7 +54,7 @@ function escolherBatataNormal() {
 function finalizarPedido() {
    let menssagem;
    menssagem="Olá, meu pedido é: " +prato+ ", " +bebida+ ", " +adicional;
-   window.open("https://wa.me/+5598981814616?text=" +menssagem);
+   window.open("https://wa.me/+5598900000000?text=" +menssagem);
 }
 
 
