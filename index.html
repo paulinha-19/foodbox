@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodbox</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="top">
+        <h1>FoodBox</h1>
+        <h2>Escolha seu box e receba em 15 minutos!</h2>
+    </div>
+
+    <h3>Burguers</h3>
+
+    <div class="produto" id="gourmet" onclick="escolherGourmet()">
+        <img src="https://www.sabornamesa.com.br/media/k2/items/cache/bf1e20a4462b71e3cc4cece2a8c96ac8_L.jpg" alt="burguer gourmet">
+        <h4>Burguer gourmet</h4>
+        <p>Pão, duas carnes, salada, queijo, ovo e chips</p>
+        <p><strong>R$ 25,00</strong></p>
+    </div>
+
+    <div class="produto" id="bacon" onclick="escolherBacon()">
+        <img src="https://s2.glbimg.com/S8SxT4O8PBbd19MNJL0h7ttwnMg=/smart/e.glbimg.com/og/ed/f/original/2018/05/25/colunas-vamos-receber-peraltex-burger-03.jpg" alt="buguer bacon">
+        <h4>Burguer Bacon</h4>
+        <p>Pão brioche, carne 190g, maionese da casa, queijo, ovo e chips</p>
+        <p><strong>R$ 23,00</strong></p>
+    </div>
+
+    <div class="produto" id="salad" onclick="escolherSalad()">
+        <img src="https://www.predilecta.com.br/images/receitas/13-7068_600.jpg" alt="burguer salada">
+        <h4>Burguer Salad</h4>
+        <p>Pão, duas carnes, salada, queijo e chips</p>
+        <p><strong>R$ 18,00</strong></p>
+    </div>
+
+    <h3>Bebida</h3>
+
+    
+    <div class="produto" id="coca" onclick="escolherCoca()">
+        <img src="https://ogimg.infoglobo.com.br/in/24503607-661-09d/FT1086A/73064201_Rio-de-Janeiro-RJ-18-11-2017Refrigerantes-em-lata-Coca-cola-original-coca-cola-zero-coca.jpg" alt="coca cola">
+        <h4>Coca-Cola</h4>
+        <p>Zero ou normal</p>
+        <p><strong>R$ 5,00</strong></p>
+    </div>
+
+    <div class="produto" id="suco" onclick="escolherSuco()">
+        <img src="https://jornaldomercado.com.br/wp-content/uploads/2012/12/_dsc0487.jpg" alt="sucos">
+        <h4>Suco</h4>
+        <p>Acerola, cajá, uva, laranja, goiaba</p>
+        <p><strong>R$ 8,00</strong></p>
+    </div>
+
+    <h3>Adicional</h3>
+
+    <div class="produto" id="batataQueijo" onclick="escolherBatataQueijo()">
+        <img src="https://s2.glbimg.com/SB4GlZ3tASoJbI6NU5TLH_jCPiA=/0x0:314x161/984x0/smart/filters:strip_icc()/s.glbimg.com/po/rc/media/2012/07/10/10_21_49_557_batata.jpg" alt="coca cola">
+        <h4>Batata com queijo</h4>
+        <p>Frita com queijo mussarela</p>
+        <p><strong>R$ 10,00</strong></p>
+    </div>
+
+    <div class="produto" id="batataNormal" onclick="escolherBatataNormal()">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrsGdXGTZYQvxUpK9nQWshmumoj1uGstQ0Dg&usqp=CAU" alt="batata frita">
+        <h4>Batata normal</h4>
+        <p>Frita e quentinha</p>
+        <p><strong>R$ 7,00</strong></p>
+    </div>
+
+    <div class="botao" onclick="finalizarPedido()">Finalizar pedido</div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
