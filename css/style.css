@@ -45,7 +45,6 @@ img{
     border-radius: 5px;
     float: right;
 }
-
 .botao{
     background-color: seagreen;
     text-align: center;
@@ -57,6 +56,11 @@ img{
     font-weight: bold;
     font-size: 15px;
     cursor: pointer;
+}
+footer p{
+    text-align: center;
+    color: #000;
+    font-size: 1rem;
 }
 
 
